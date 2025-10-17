@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap");
+@import "tailwindcss";
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fffffe;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent accidental horizontal scrolling which can show a white gutter on the right */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Simple reusable container for consistent centered content */
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
