@@ -46,3 +46,17 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 1060px) {
+  #home img {
+    width: 300px;
+  }
+
+  #home h1 {
+    font-size: 1.6rem;
+  }
+
+  #home h2 {
+    font-size: 1.3rem;
+  }
+}

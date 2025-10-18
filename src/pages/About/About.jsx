@@ -17,7 +17,8 @@ export default function About() {
       years: "2023–2024",
     },
     {
-      degree: "Bachelor of Industrial Technology – Instrumentation & Control Tech",
+      degree:
+        "Bachelor of Industrial Technology – Instrumentation & Control Tech",
       school: "Batangas State University",
       years: "2015–2019",
     },
@@ -51,9 +52,9 @@ export default function About() {
       </div>
 
       {/* Content Section */}
-      <div className="content-section flex flex-col md:flex-row gap-12 p-5">
+      <div className="content-section flex flex-row justify-evenly gap-12 p-5">
         {/* Education Section */}
-        <div data-aos="fade-right" className="education">
+        <div data-aos="fade-right" className="education w-[80%]">
           <h2 className="text-2xl font-semibold text-[#2b2c34] mb-6">
             Education
           </h2>
@@ -75,7 +76,7 @@ export default function About() {
         {/* About Description */}
         <div
           data-aos="fade-left"
-          className="description md:w-1/2 space-y-5 text-black text-lg leading-relaxed"
+          className="description space-y-5 text-black text-lg leading-relaxed w-[80%]"
         >
           <p>
             A passionate and dedicated full-stack developer who loves turning

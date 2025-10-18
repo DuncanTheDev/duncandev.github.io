@@ -22,7 +22,44 @@
   }
 
   .card-item {
-    width: 100%;
+    width: 380px;
+  }
+  .card-context {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card img {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+@media (max-width: 1060px) {
+  #skills {
+    padding-top: 100px;
+  }
+
+  #skills h1 {
+    font-size: 2.5rem;
+  }
+
+  #skills h4 {
+    font-size: 1.5rem;
+  }
+
+  #skills p {
+    font-size: 1rem;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .card-item {
+    width: 380px;
   }
   .card-context {
     display: flex;
